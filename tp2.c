@@ -109,7 +109,7 @@ void* hornear(void *data) {
 void* armarMedallones(void *data) {
         struct parametro *mydata = data;
         sem_wait(&mydata->semaforos_param.sem_armarMedallones);
-        char *accion = "armarMedallones";
+        char *accion = "armar";
         imprimirAccion(mydata,accion);
         usleep( 20000 );
     sem_post(&mydata->semaforos_param.sem_cocinar);
@@ -134,7 +134,7 @@ void* armarHamburguesas(void *data) {
         sem_wait(&mydata->semaforos_param.sem_armarHamburguesas);
         sem_wait(&mydata->semaforos_param.sem_armarHamburguesas);
         sem_wait(&mydata->semaforos_param.sem_armarHamburguesas);
-        char *accion = "armarHamburguesas";
+        char *accion = "armarHamburguesa";
         imprimirAccion(mydata,accion);
         usleep( 20000 );
 
