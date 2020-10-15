@@ -1,0 +1,8 @@
+cortar/cebolla/ajo/perejil
+mezclar/cebolla/ajo/perejil/carne
+salar/carnepreparada/sal
+cortarLT/lechuga/tomate
+hornear/pan
+armar/medallones
+cocinar/medallones
+armarHamburguesa/pan/medallones/lechuga/tomate
